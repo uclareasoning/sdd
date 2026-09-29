@@ -68,10 +68,10 @@ To compile one of the included example CNFs into an SDD, we can use
 one of the pre-compiled binaries, and execute the following on the
 command line:
 
-  bin/sdd-linux -c cnf/s208.1.scan.cnf -s output.sdd
+  bin/sdd-linux -c cnf/s208.1.scan.cnf -S output.sdd
 
 where the flag -c is used to specify the filename of the input CNF,
-and -s is used to specify the filename of the output SDD.
+and -S is used to specify the filename of the output SDD.
 
 To see a list of all command line options, run the command:
 
